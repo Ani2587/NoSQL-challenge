@@ -1,4 +1,21 @@
-# nosql-challenge
+# NoSQL-challenge
+
+## Overview
+The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. The requirement here is to evaluate some of the ratings data in order to guide food critics or journalists make informed decisions.
+
+## Purpose
+This challenge was meant to help me explore the NoSQL type of document database called MongoDB. Through the command line code on Terminal I was able to create the database that had a JSON type collection. I was able to create a client connection with the datbase through a PyMongo command to load the collection and store it to a variable.
+I was able to perform exploratory analysis on the collection by examining different aspects of the data stored in the documents in the collection.
+
+### Part 1: Database and Jupyter Notebook Set Up
+In this part, we are connecting to a database through PyMongo by creating an instance of Mongo Client. Upon successfull connection, we then import the data into pandas dataframe for further steps.
+
+### Part 2: Update the Database
+In this part the data is updated based on the provided criteria and upon verification of proper updation, the data is then stored back into the database for further analysis.
+### Part 3: Exploratory Analysis
+There were specific questions to be answered, which aids in finding the locations that are to be visited and/or avoided.
+
+## Instructions 
 
 Follow the steps below to successfully run the code:
 
